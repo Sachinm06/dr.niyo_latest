@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Dr NIYO Water Solutions | Pure Water. Professional Solutions.</title>
+    <meta
+      name="description"
+      content="Water purification for homes, offices, hotels, hostels and commercial spaces across Kochi and Kerala. Book a free water test."
+    />
+    <meta name="theme-color" content="#061a33" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="bar"></div>
+
+    <nav id="nav">
+      <a class="logo" href="#top">
+        <img src="./images/logo_png-removebg-.png" alt="Dr NIYO" />
+      </a>
+      <div class="links" id="links">
+        <a href="#solutions">Solutions</a><a href="#featured">Products</a
+        ><a href="#test">Water Test</a><a href="#why">About</a
+        ><a href="#contact">Contact</a>
+        <a class="btn p" href="#test">Free Water Test</a>
+      </div>
+      <button
+        class="burger"
+        id="burger"
+        aria-label="Menu"
+        aria-expanded="false"
+        aria-controls="links"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <header class="hero dark" id="top">
+      <svg
+        class="wave"
+        viewBox="0 0 1200 200"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M0 100Q150 40 300 100T600 100T900 100T1200 100V200H0Z"
+          fill="#1e6bff"
+          opacity=".45"
+        />
+      </svg>
+      <svg
+        class="wave b"
+        viewBox="0 0 1200 200"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M0 120Q150 60 300 120T600 120T900 120T1200 120V200H0Z"
+          fill="#3fd0ff"
+          opacity=".5"
+        />
+      </svg>
+      <div class="w">
+        <h1 data-aos="fade-up">Pure Water.<br />Professional Solutions.</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="150">
+          Advanced water purification solutions for homes, offices, hotels,
+          hostels and commercial spaces.
+        </p>
+        <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <a class="btn p mag" href="#test">Get Free Water Test</a>
+          <a class="btn g" href="#solutions">Explore Solutions</a>
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450">
+          <span class="glass">Serving Kochi &amp; across Kerala</span
+          ><span class="glass">Professional installation</span
+          ><span class="glass">Service support</span>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="w">
+        <h2 data-aos="fade-right">Is your water really safe?</h2>
+        <p data-aos="fade-right" data-aos-delay="100">
+          Clear water can still carry what you can’t see. Tap any item below to
+          see what it means.
+        </p>
+        <div class="flow">
+          <div data-aos="flip-left">Tap water</div>
+          <div data-aos="flip-left" data-aos-delay="150">
+            Invisible contaminants
+          </div>
+          <div data-aos="flip-left" data-aos-delay="300">
+            Advanced filtration
+          </div>
+          <div data-aos="flip-left" data-aos-delay="450">Pure water</div>
+        </div>
+        <div class="chips" id="issues" data-aos="fade-up">
+          <button
+            data-t="TDS is the amount of dissolved minerals and salts. High TDS affects taste and may need RO treatment."
+          >
+            TDS
+          </button>
+          <button
+            data-t="Bacteria can be present even in clear water. A test shows whether disinfection is needed."
+          >
+            Bacteria
+          </button>
+          <button
+            data-t="Sand, silt and rust particles make water cloudy and clog appliances."
+          >
+            Sediments
+          </button>
+          <button
+            data-t="Unwanted chemicals can come from the source or the pipes. Testing identifies them."
+          >
+            Unwanted chemicals
+          </button>
+          <button
+            data-t="Smell and aftertaste are the first signs that something is off in your water."
+          >
+            Odour &amp; taste issues
+          </button>
+        </div>
+        <div class="note" id="issueNote" role="status"></div>
+        <p style="margin-top: 20px" data-aos="fade-up">
+          <a class="btn p mag" href="#test">Test my water</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="solutions" style="padding-top: 0">
+      <div class="w">
+        <h2 data-aos="fade-up">Solutions for every space</h2>
+        <p data-aos="fade-up">
+          Pick one and we’ll start the recommendation for you.
+        </p>
+        <div class="grid c4">
+          <button class="card cat tilt" data-use="Home" data-aos="fade-up">
+            <div class="ico">🏠</div>
+            <h3>Residential</h3>
+            <p>Smart purification solutions for your home.</p>
+            <em>Explore →</em>
+          </button>
+          <button
+            class="card cat tilt"
+            data-use="Commercial"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="ico">🏢</div>
+            <h3>Commercial</h3>
+            <p>High-capacity systems for businesses.</p>
+            <em>Explore →</em>
+          </button>
+          <button
+            class="card cat tilt"
+            data-use="Hostel"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="ico">🛏️</div>
+            <h3>Hostel &amp; Institutional</h3>
+            <p>Reliable purification for high-demand environments.</p>
+            <em>Explore →</em>
+          </button>
+          <button
+            class="card cat tilt"
+            data-use="Industrial"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="ico">🏭</div>
+            <h3>Industrial</h3>
+            <p>Advanced filtration for specialized requirements.</p>
+            <em>Explore →</em>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="dark">
+      <div class="w feat">
+        <div data-aos="fade-right">
+          <h2>Commercial Water Purifier</h2>
+          <div class="price">
+            Starting from ₹<span data-count="19900">19,900</span>
+          </div>
+          <p style="margin-top: 12px">
+            Built for offices, shops and busy commercial spaces.
+          </p>
+          <div class="chips">
+            <span>High-capacity purification</span
+            ><span>Durable construction</span
+            ><span>Professional installation</span><span>Service support</span>
+          </div>
+          <div class="row">
+            <a
+              class="btn p mag"
+              href="#"
+              data-wa="Hi, I’d like the price of the Commercial Water Purifier"
+              >Get Price</a
+            >
+            <a class="btn g" href="#contact">Request a Consultation</a>
+          </div>
+        </div>
+        <div class="stage" id="stage" data-aos="zoom-in" aria-hidden="true">
+          <div class="cyl" id="cyl"><i></i></div>
+          <span class="tag" style="top: 12%; left: 2%">High capacity</span>
+          <span class="tag" style="top: 46%; right: 0">Durable build</span>
+          <span class="tag" style="bottom: 8%; left: 6%">Service support</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="finder">
+      <div class="w">
+        <h2 data-aos="fade-up">Find your solution</h2>
+        <p data-aos="fade-up">
+          Not sure which purifier you need? Answer three quick questions.
+        </p>
+        <div class="finder" id="fd" data-aos="fade-up">
+          <div class="prog"><i id="prog"></i></div>
+          <div class="fd-q" data-q="use">
+            <h3>Where will you use it?</h3>
+            <div class="opts">
+              <button>Home</button><button>Office</button><button>Hotel</button
+              ><button>Hostel</button><button>Commercial</button
+              ><button>Industrial</button>
+            </div>
+          </div>
+          <div class="fd-q" data-q="ppl" hidden>
+            <h3>How many people?</h3>
+            <div class="opts">
+              <button>1–5</button><button>6–25</button><button>26–100</button
+              ><button>100+</button>
+            </div>
+          </div>
+          <div class="fd-q" data-q="src" hidden>
+            <h3>What is your water source?</h3>
+            <div class="opts">
+              <button>Borewell</button><button>Municipal</button
+              ><button>Well</button><button>Other</button>
+            </div>
+          </div>
+          <div class="res" id="res" hidden></div>
+          <button class="link" id="fdReset" hidden>↺ Start again</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="test" class="dark test">
+      <div class="w">
+        <div data-aos="fade-right">
+          <h2>Know your water before you buy a filter.</h2>
+          <p>
+            Book a professional water test and understand what’s actually in
+            your water.
+          </p>
+          <div class="big">Free water test*</div>
+          <p>
+            *₹<span data-count="800">800</span> test amount deducted from your
+            purchase when you buy a filter.
+          </p>
+          <div class="stats">
+            <div><b data-count="4">4</b><span>simple steps</span></div>
+            <div>
+              <b data-count="6">6</b><span>Kerala areas highlighted</span>
+            </div>
+            <div><b>Kochi</b><span>based team</span></div>
+          </div>
+          <p>
+            📞 <a href="tel:+918129368559">+91 81293 68559</a> · Kochi, Kerala
+          </p>
+        </div>
+        <form id="wtForm" novalidate data-aos="fade-left">
+          <h3>Book your free water test</h3>
+          <label for="n">Your name</label
+          ><input id="n" autocomplete="name" placeholder="Full name" />
+          <label for="p">Phone number</label
+          ><input
+            id="p"
+            type="tel"
+            inputmode="tel"
+            autocomplete="tel"
+            placeholder="10-digit mobile number"
+          />
+          <div class="err" id="pErr">Enter a valid 10-digit phone number.</div>
+          <label for="l">Location</label>
+          <select id="l">
+            <option>Kochi</option>
+            <option>Ernakulam</option>
+            <option>Aluva</option>
+            <option>Kakkanad</option>
+            <option>Thrissur</option>
+            <option>Kozhikode</option>
+            <option>Other Kerala location</option>
+          </select>
+          <button class="btn p" type="submit">Book on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div class="w">
+        <h2 data-aos="fade-up">How Dr NIYO works</h2>
+        <ol class="steps" id="steps">
+          <li data-n="1" data-aos="fade-left">
+            <h3>Book</h3>
+            <p>Schedule your water test.</p>
+          </li>
+          <li data-n="2" data-aos="fade-left">
+            <h3>Test</h3>
+            <p>Our team checks your water.</p>
+          </li>
+          <li data-n="3" data-aos="fade-left">
+            <h3>Recommend</h3>
+            <p>We identify the right purification system.</p>
+          </li>
+          <li data-n="4" data-aos="fade-left">
+            <h3>Install</h3>
+            <p>Professional installation at your location.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="why" style="padding-top: 0">
+      <div class="w">
+        <h2 data-aos="fade-up">Why Dr NIYO?</h2>
+        <div class="grid c3">
+          <div class="card" data-aos="zoom-in">
+            <div class="ico">⚙️</div>
+            <h3>Advanced technology</h3>
+            <p>Modern purification systems.</p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="ico">🔧</div>
+            <h3>Professional installation</h3>
+            <p>Installed by trained technicians.</p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="ico">🛟</div>
+            <h3>Reliable support</h3>
+            <p>Service whenever you need it.</p>
+          </div>
+          <div class="card" data-aos="zoom-in">
+            <div class="ico">🏘️</div>
+            <h3>Solutions for every need</h3>
+            <p>Home to industrial applications.</p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="ico">🏷️</div>
+            <h3>Transparent pricing</h3>
+            <p>Clear product and service pricing.</p>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="ico">📍</div>
+            <h3>Kerala focused</h3>
+            <p>Solutions designed around local water conditions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top: 0">
+      <div class="w">
+        <h2 data-aos="fade-up">Compare solutions</h2>
+        <div class="tabs" id="cmpTabs" role="tablist" data-aos="fade-up">
+          <button role="tab" aria-selected="false" data-k="0">
+            Residential
+          </button>
+          <button role="tab" aria-selected="false" data-k="1">
+            Commercial
+          </button>
+          <button role="tab" aria-selected="false" data-k="2">Hostel</button>
+          <button role="tab" aria-selected="false" data-k="3">
+            Industrial
+          </button>
+        </div>
+        <div class="tw" data-aos="fade-up">
+          <table id="cmp">
+            <tr>
+              <th>Solution</th>
+              <th>Capacity</th>
+              <th>Best for</th>
+            </tr>
+            <tr>
+              <td>Residential RO</td>
+              <td>Small–Medium <span class="bars" data-n="2"></span></td>
+              <td>Homes</td>
+            </tr>
+            <tr>
+              <td>Commercial RO</td>
+              <td>Medium–High <span class="bars" data-n="3"></span></td>
+              <td>Offices / Shops</td>
+            </tr>
+            <tr>
+              <td>Hostel systems</td>
+              <td>High <span class="bars" data-n="4"></span></td>
+              <td>Hostels</td>
+            </tr>
+            <tr>
+              <td>Industrial RO</td>
+              <td>Very high <span class="bars" data-n="5"></span></td>
+              <td>Industries</td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" id="cmpNote"></div>
+        <a class="btn o" href="#finder" data-aos="fade-up"
+          >Not sure which one? Let us help →</a
+        >
+      </div>
+    </section>
+
+    <section
+      class="brand dark"
+      id="brand"
+      aria-label="Every drop deserves better"
+    >
+      <div class="w" data-aos="zoom-out">
+        <h2>Every drop<br />deserves better.</h2>
+        <p>Clear, clean and tested for Kerala homes and businesses.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="w">
+        <div class="rv-head">
+          <h2 data-aos="fade-right">What customers say</h2>
+          <div class="arrows">
+            <button id="rvPrev" aria-label="Previous review">←</button
+            ><button id="rvNext" aria-label="Next review">→</button>
+          </div>
+        </div>
+        <div class="scroll" id="rv" data-aos="fade-up">
+          <div class="card">
+            <div class="stars">★★★★★</div>
+            <p>
+              “Excellent installation and service. The team helped us choose the
+              right system for our requirements.”
+            </p>
+            <div class="who">
+              Anil Kumar · Kochi · Commercial Water Purifier
+            </div>
+          </div>
+          <div class="card">
+            <div class="stars">★★★★</div>
+            <p>
+              “Really happy with my purchase. The purifier looks great, is easy
+              to use, and the installation was smooth. Highly recommended!”
+            </p>
+            <div class="who">
+              Aparna Suresh · Kochi · Commercial Water Purifier
+            </div>
+          </div>
+          <div class="card">
+            <div class="stars">★★★★★</div>
+            <p>
+              Good quality product at a reasonable price. The installation team
+              was professional and completed everything on time.”
+            </p>
+            <div class="who">Reshma Nair · Kochi · Commercial RO Purifier</div>
+          </div>
+          <div class="card">
+            <div class="stars">★★★★★</div>
+            <p>
+              Very satisfied with the overall experience. Great customer support
+              and excellent product quality. Thank you, Dr. NIYO!”
+            </p>
+            <div class="who">
+              Sreejith Menon · Kochi · Commercial Water Purifier
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top: 0">
+      <div class="w">
+        <h2 data-aos="fade-up">Water solutions across Kerala</h2>
+        <p data-aos="fade-up">Tap your location to check.</p>
+        <div class="chips" id="areas" data-aos="fade-up">
+          <button>Kochi</button><button>Ernakulam</button><button>Aluva</button
+          ><button>Kakkanad</button><button>Edappally</button
+          ><button>Vyttila</button><button>Palarivattom</button><button>Kaloor</button><button>Kalamassery</button
+            ><button>Thrippunithura</button><button>Fort Kochi</button
+            ><button>Mattancherry</button><button>Angamaly</button><button>Other Kerala locations</button>
+        </div>
+        <div class="note" id="areaNote" role="status"></div>
+        <p style="margin-top: 16px">
+          <a
+            class="btn p mag"
+            href="#"
+            data-wa="Hi, is your service available in my area?"
+            >Check service availability</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <section style="padding-top: 0">
+      <div class="w faq">
+        <h2 data-aos="fade-up">FAQ</h2>
+        <details data-aos="fade-up">
+          <summary>Which water purifier is suitable for my home?</summary>
+          <p>
+            It depends on your water source and TDS level. A free water test
+            tells us which system fits.
+          </p>
+        </details>
+        <details data-aos="fade-up">
+          <summary>Do you provide water testing?</summary>
+          <p>
+            Yes. The ₹800 test amount is deducted from your purchase when you
+            buy a filter.
+          </p>
+        </details>
+        <details data-aos="fade-up">
+          <summary>How much does a commercial purifier cost?</summary>
+          <p>
+            Commercial purifiers start from ₹19,900. Final pricing depends on
+            capacity and site.
+          </p>
+        </details>
+        <details data-aos="fade-up">
+          <summary>Do you provide installation?</summary>
+          <p>
+            Yes, professional installation at your location by trained
+            technicians.
+          </p>
+        </details>
+        <details data-aos="fade-up">
+          <summary>Do you provide maintenance and service?</summary>
+          <p>Yes. Our team provides service support after installation.</p>
+        </details>
+        <details data-aos="fade-up">
+          <summary>How often should filters be replaced?</summary>
+          <p>
+            It varies by water quality and usage. We will advise a schedule
+            after testing your water.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final dark" id="contact">
+      <div class="w" data-aos="zoom-in">
+        <h2>Your water.<br />Our expertise.</h2>
+        <p>
+          Get your water tested and find the right purification solution for
+          your needs.
+        </p>
+        <div class="row">
+          <a
+            class="btn mag"
+            style="background: #fff; color: #0a3f9c"
+            href="#test"
+            >Book Free Water Test</a
+          >
+        </div>
+        <p>
+          <a
+            href="tel:+918129368559"
+            style="font-size: 1.3rem; font-weight: 600"
+            >📞 +91 81293 68559</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="w">
+        <div>
+          <b style="font-size: 1.2rem">Dr NIYO Water Solutions</b>
+          <p>Pure Water. Professional Solutions.</p>
+          <p>Kochi, Kerala<br />+91 81293 68559</p>
+        </div>
+        <div>
+          <b>Navigate</b><br /><a href="#top">Home</a><a href="#why">About</a
+          ><a href="#featured">Products</a><a href="#solutions">Solutions</a
+          ><a href="#test">Water Test</a><a href="#contact">Contact</a>
+        </div>
+        <div>
+          <b>Social</b><br /><a href="#">Instagram</a><a href="#">Facebook</a
+          ><a href="#" data-wa="Hi, I’d like to know more about Dr NIYO"
+            >WhatsApp</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <a class="wa" href="#" data-wa="Hi, I’d like to book a free water test"
+      >WhatsApp</a
+    >
+    <button class="top" id="top-btn" aria-label="Back to top">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
